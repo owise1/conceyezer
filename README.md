@@ -2,7 +2,7 @@
 
 Makin' 'em keep it concise since '13
 
-This jQuery pluggin allows you to encourage succinct form field entries by reducing the font size as they type.
+This jQuery pluggin allows you to encourage succinct form field entries by reducing the font size as they type.  [Demo](http://jsfiddle.net/owise1/dXyyn/)
 
 ### Usage
 At 100 characters their entry will be invisible
