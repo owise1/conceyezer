@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script type="text/javascript" src="conceyezer.js"></script>
+	<script type='text/javascript' charset='utf-8'>
+		$(document).ready(function() {
+			$('textarea.harsh').conceyezer(100);
+			$('textarea.nicer').conceyezer({
+				chars : 100,
+				minimumFontSize : '9px'
+			});
+		});
+	</script>
+	<style type="text/css" media="screen">
+		textarea{
+			width:400px;
+			height:150px;
+			font-size: 1.5em;
+		}
+	</style>
+</head>
+<body>
+	<h1>conceyezer</h1>
+	<h3>keep it concise!</h3>
+	<textarea class='harsh'></textarea>
+	<h3>please keep it concise</h3>
+	<textarea class='nicer'></textarea>
+</body>
